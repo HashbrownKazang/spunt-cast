@@ -29,7 +29,7 @@ const Home = () => {
   const router = useRouter();
   const didPopulateDevicesRef = useRef(false);
   const user = React.useContext(UserContext);
-  const [participantName, setParticipantName] = useState("");
+  const [participantName, setParticipantName] = useState("true");
   const [joining, setJoining] = useState(false);
   const [hasBlurredNameInput, setHasBlurredNameInput] = useState(false);
   const { requestPermissionAndPopulateDevices } = useUserMedia();
@@ -129,8 +129,8 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Mux Meet</title>
-        <meta name="description" content="Real-time meetings powered by Mux" />
+        <title>SPUNT CAST</title>
+        <meta name="description" content="SPUNT CAST VIDEO FEED" />
         <link rel="icon" href="/favicon.png" />
       </Head>
 
